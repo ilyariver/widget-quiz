@@ -922,7 +922,7 @@
     color: #fff;
     font-weight: 700;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -939,6 +939,22 @@
     text-align: center;
     color: #fff;
     opacity: .3;
+}
+
+.error_div {
+    position: relative;
+}
+
+.phone_error {
+    display: none;
+    position: absolute;
+    bottom: -17px;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+}
+.phone_error.active {
+    display: block;
 }
 
 /* media */

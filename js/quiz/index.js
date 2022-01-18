@@ -144,11 +144,12 @@ function sendDataForm(event) {
 	if (firstNumber === 8 || firstNumber === 7) {
 		document.querySelector('.js-form').classList.add('notvalid')
 		document.querySelector('.js-phone-input').classList.add('field-error')
-
+		document.querySelector('.phone_error').classList.add('active')
 		return
 	} else {
 		document.querySelector('.js-form').classList.remove('notvalid')
 		document.querySelector('.js-phone-input').classList.remove('field-error')
+		document.querySelector('.phone_error').classList.remove('active')
 	}
 
 	if (event.code === 'Enter' || event.code === 'NumpadEnter' || event.target.classList.contains('js-send-form-btn')) {
