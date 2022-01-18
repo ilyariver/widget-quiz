@@ -1,0 +1,27 @@
+.promo-quiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.promo-quiz__openbutton {
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    background-image: var(--color-yellow-gradient);
+    text-transform: uppercase;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 0 0 #a35226, 0 0 11px 2px #a35226;
+    transition: transform 0.2s ease-in;
+}
+
+.promo-quiz__openbutton:hover {
+    transform: scale(1.05);
+}
+
+.promo-quiz__openbutton:active {
+    transform: scale(1);
+}
