@@ -62,7 +62,7 @@ $$.modal = function(options) {
 	                        <div class="quiz-widget__bonus">
 	                            <div class="quiz-widget__bonus-img-container veil">
 	                                <span class="quiz-widget__bonus-text">Натяжные потолки</span>
-	                                <img class="quiz-widget__bonus-img" src="/img/22-2.jpg" alt="Бонус">
+	                                <img class="quiz-widget__bonus-img" src="../img/22-2.jpg" alt="Бонус">
 	                            </div>
 	                        </div>
 	                    </div>
@@ -189,7 +189,7 @@ $$.modal = function(options) {
           <div class="quiz-widget__bonus-unlock js-bonus-lock lock form__bonus">
             <div class="quiz-widget__bonus-img-container veil js-bonus-veil">
               <span class="quiz-widget__bonus-text">Натяжные потолки</span>
-              <img class="quiz-widget__bonus-img" src="/img/22-2.jpg" alt="Бонус">
+              <img class="quiz-widget__bonus-img" src="../img/22-2.jpg" alt="Бонус">
             </div>
           </div>
         </div>
